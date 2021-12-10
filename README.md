@@ -1,6 +1,6 @@
 # devsecops
 DevSecOps demo environment to demonstrate the use case for several security related checks.
-In the past, it was quite cumbersome to perform these in CI/CD (e.g. Azure DevOps), however with all the available tools, using GitHub Actions much easier.
+In the past, it was quite cumbersome to perform these in CI/CD (e.g. Azure DevOps). Using GitHub (actions) and all the available security tools, secure development is a lot easier than it used to be.
 
 Uses the following:
 - Perform a pen test using OWASP (Github action)
@@ -10,6 +10,13 @@ Uses the following:
 Wishlist:
 - IaC validations
  https://github.com/Azure/arm-deploy
+
+Github security:
+https://github.com/security
+
+CodeQL (define queries against your code)
+https://codeql.github.com/
+
 
 Migrate Azure DevOps to GitHub:
 https://solidify.dev/blog/migrating-from-azure-repos-to-github
